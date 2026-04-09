@@ -1,0 +1,82 @@
+/**
+ * Design System Custom CSS Classes
+ * These use design tokens for consistency
+ */
+
+/* Primary color utilities */
+.bg-primary-50 { background-color: #e6f3f0; }
+.bg-primary-100 { background-color: #cce7e1; }
+.bg-primary-200 { background-color: #99cfc3; }
+.bg-primary-300 { background-color: #66b7a5; }
+.bg-primary-400 { background-color: #339f87; }
+.bg-primary-500 { background-color: #1f7a63; }
+.bg-primary-600 { background-color: #1a6651; }
+.bg-primary-700 { background-color: #14523f; }
+.bg-primary-800 { background-color: #0f3e2d; }
+.bg-primary-900 { background-color: #0a2a1b; }
+
+.text-primary-50 { color: #e6f3f0; }
+.text-primary-100 { color: #cce7e1; }
+.text-primary-200 { color: #99cfc3; }
+.text-primary-300 { color: #66b7a5; }
+.text-primary-400 { color: #339f87; }
+.text-primary-500 { color: #1f7a63; }
+.text-primary-600 { color: #1a6651; }
+.text-primary-700 { color: #14523f; }
+.text-primary-800 { color: #0f3e2d; }
+.text-primary-900 { color: #0a2a1b; }
+
+/* Semantic color utilities */
+.bg-semantic-success { background-color: #10b981; }
+.bg-semantic-warning { background-color: #f59e0b; }
+.bg-semantic-error { background-color: #ef4444; }
+.bg-semantic-info { background-color: #3b82f6; }
+
+.text-semantic-success { color: #10b981; }
+.text-semantic-warning { color: #f59e0b; }
+.text-semantic-error { color: #ef4444; }
+.text-semantic-info { color: #3b82f6; }
+
+/* Neutral color utilities */
+.bg-neutral-50 { background-color: #f9fafb; }
+.bg-neutral-100 { background-color: #f3f4f6; }
+.bg-neutral-200 { background-color: #e5e7eb; }
+.bg-neutral-300 { background-color: #d1d5db; }
+.bg-neutral-400 { background-color: #9ca3af; }
+.bg-neutral-500 { background-color: #6b7280; }
+.bg-neutral-600 { background-color: #4b5563; }
+.bg-neutral-700 { background-color: #374151; }
+.bg-neutral-800 { background-color: #1f2937; }
+.bg-neutral-900 { background-color: #111827; }
+
+.text-neutral-50 { color: #f9fafb; }
+.text-neutral-100 { color: #f3f4f6; }
+.text-neutral-200 { color: #e5e7eb; }
+.text-neutral-300 { color: #d1d5db; }
+.text-neutral-400 { color: #9ca3af; }
+.text-neutral-500 { color: #6b7280; }
+.text-neutral-600 { color: #4b5563; }
+.text-neutral-700 { color: #374151; }
+.text-neutral-800 { color: #1f2937; }
+.text-neutral-900 { color: #111827; }
+
+/* Border utilities with tokens */
+.border-primary-500 { border-color: #1f7a63; }
+.border-neutral-200 { border-color: #e5e7eb; }
+.border-neutral-700 { border-color: #374151; }
+
+/* Ring utilities with tokens */
+.ring-primary-500 { --tw-ring-color: #1f7a63; }
+.ring-primary-500\/20 { --tw-ring-color: rgba(31, 122, 99, 0.2); }
+
+/* Hover state utilities */
+.hover\:bg-primary-600:hover { background-color: #1a6651; }
+.hover\:bg-primary-700:hover { background-color: #14523f; }
+.hover\:text-primary-600:hover { color: #1a6651; }
+
+/* Active state utilities */
+.active\:bg-primary-700:active { background-color: #14523f; }
+
+/* Dark mode overrides */
+.dark .dark\:bg-primary-900\/30 { background-color: rgba(10, 42, 27, 0.3); }
+.dark .dark\:text-primary-400 { color: #339f87; }
